@@ -1,0 +1,66 @@
+body {
+  width: 960px;
+}
+
+nav {
+  height: 100px;
+  border: 10px;
+  border-image: url(hr-img.png);
+  border-image-repeat: stretch;
+  
+}
+
+div#logo img{
+  width: 50px;
+  filter: brightness(25%);
+  float: left;
+  
+}
+
+#delicious {
+  font-family: 'Yellowtail', cursive;
+  font-size: 30pt;
+  float: left;
+}
+
+#blog {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 10px;
+  float: left;
+  
+}
+
+ol#icons {
+  float: right;
+}
+
+ol#icons li {
+  display: inline;
+}
+
+nav ol:last-of-type {
+  padding-right: 15px;
+}
+
+#choco {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+}
+
+#date {
+  font-size: 8pt;
+  color: grey;
+  width: fit-content;
+}
+
+#print {
+  float: right;
+  color: grey;
+  font-size: 8pt;
+  padding: 20px;
+  width: fit-content;
+}
+
+#steps {
+  background-image: url("list-bg.png");
+}
